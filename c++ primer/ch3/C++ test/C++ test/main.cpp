@@ -10,6 +10,7 @@
 #include <string>
 #include <iostream>
 #include <vector>
+#include <unordered_map>
 using std::vector;
 using std::string;
 using std::cin;
@@ -17,9 +18,19 @@ using std::cout;
 using std::endl;
 using std::begin;
 using std::end;
+using std::pair;
+//using std::unordered_map;
 
+//bool SortByM1( const pair<int, int> &v1, const pair<int, int> &v2)//注意：本函数的参数的类型一定要与vector中元素的类型一致
+//{
+//    return v1.second > v2.second;//升序排列
+//}
 
 int main(){
+  
+    
+
+    
 //************************************************************************************************
 // 3.2
 // String定义方式
@@ -159,12 +170,19 @@ int main(){
 //    int *e = end(arr);
 //    for (int *b = begin(arr); b != e; ++b)
 //        cout << *b <<endl;
-    char str[] = "WHO";
-    char str1[] = "WHO a";
-    cout << strlen(str1) <<endl;
-    cout << strcmp(str,str1) << endl;
-    
-    
+//    
+//    vector<int> A = {1,2,3};
+//    auto beg = A.begin();
+//    auto end = A.end()-1;
+//    auto temp = *end;
+//    *end = *beg;
+//    *beg = temp;
+//    
+//    cout << *beg <<" " << *end << endl;
+//    
+//
+    string ONES = {"","I","II","III","IV","V","VI","VII","VIII","IX"};
+    cout << ONES[0]<<endl;
     
     return 0;
 }
